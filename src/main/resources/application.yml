@@ -5,8 +5,7 @@ spring:
     active: local
   data:
     redis:
-      host: ${REDIS_HOST:localhost}
-      port: ${REDIS_PORT:6379}
+      url: ${REDIS_URL:rediss://default:AbYjAAIncDJhMGNlZDZjODVhNmQ0MWQ3OTNhZjk3MjQ5NjFkNDQwM3AyNDY2Mjc@fair-catfish-46627.upstash.io:6379}
 
 server:
   port: 8080
