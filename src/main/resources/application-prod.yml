@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+server:
+  port: 8080
+
+telegram:
+  bot:
+    webhook:
+      url: ${WEBHOOK_URL:https://api.yourdomain.com/api/webhook}
