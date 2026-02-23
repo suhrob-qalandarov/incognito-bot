@@ -1,0 +1,9 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+
+telegram:
+  bot:
+    webhook:
+      url: ${WEBHOOK_URL:https://seven-squids-hope.loca.lt/api/webhook}

@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: incognito-bot
+  profiles:
+    active: local
+
+server:
+  port: 8080
+
+telegram:
+  bot:
+    token: ${BOT_TOKEN:8421019264:AAGxbmsnie_SjJx-N-qyYYCqREzpW6dibhY}
+    username: ${BOT_USERNAME:IncAskBot}
+    webhook:
+      url: ${WEBHOOK_URL:https://seven-squids-hope.loca.lt/api/webhook}
+      secret: ${WEBHOOK_SECRET:my_secret_token_123}
